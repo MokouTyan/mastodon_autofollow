@@ -1,2 +1,2 @@
 # mastodon_autofollow
-一个用于自动追踪的机器人，作者是闽科站的vanv
+一个用于mastodon自动关注的机器人，作者是闽科站的vanv@mku.social
