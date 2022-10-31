@@ -65,6 +65,7 @@ def followingAll(ls, botId):
             for j in userInfo["accounts"]:
                 if j["id"] not in followingList and not j["locked"]:
                     remaining = int(followingRequest(j["id"]))
+                    print(remaining)
                     print("发送关注" + j["id"] + "请求成功")
                     if remaining < 50:
                         print("请求次数已达上限,请5分钟后再试！")
